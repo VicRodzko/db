@@ -1,0 +1,26 @@
+.tableDashboard {
+  display: flex;
+  justify-content: space-between;
+  justify-items: start;
+  align-content: space-between;
+  align-items: center;
+
+  margin-top: -10%;
+
+  background-color: white;
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.tableDashboard th {
+  width: 10vw;
+
+  border: 1px solid black;
+}
+
+.tableDashboard td, tr {
+  padding-left: 10px;
+
+  border: 1px solid black;
+}
+
